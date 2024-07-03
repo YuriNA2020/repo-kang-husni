@@ -80,7 +80,7 @@ app.get('/sensor-data', (req, res) => {
 
 // Serve the HTML file
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'homepage.html'));
 });
 
 
